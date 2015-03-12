@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta encoding="UTF-8" />
-    <title>angular-focus-trap</title>
+    <title>angular-tab-trap</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="assets/fonts.css" />
     <link rel="stylesheet" href="theme.css" />
@@ -12,7 +12,7 @@
         padding: 8px;
         box-sizing: border-box;
     }
-    .showcase-example focus-trap {
+    .showcase-example tab-trap {
         display: block;
     }
     .showcase-example label {
@@ -35,19 +35,19 @@
     </style>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.9/angular.js"></script>
-    <script src="lib/angular-focus-trap.js"></script>
+    <script src="lib/angular-tab-trap.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
 
-        angular.module('demo', [ 'mp.focusTrap' ]);
+        angular.module('demo', [ 'mp.tabTrap' ]);
     </script>
 </head>
 <body>
     <header>
         <div class="content-wrap">
             <a href="http://myplanet.io" class="logo" title="Myplanet">Myplanet</a>
-            <h1><a href=".">angular-focus-trap</a></h1>
-            <h2>...</h2>
+            <h1><a href=".">angular-tab-trap</a></h1>
+            <h2>Tab trap for Angular</h2>
         </div>
     </header>
     <nav>
@@ -56,7 +56,7 @@
                 <li><a href="#overview">Overview</a></li>
                 <li><a href="#download">Download <strong>v1.0.0</strong></a></li>
                 <li><a href="#usage">Usage</a></li>
-                <li><a href="https://github.com/myplanetdigital/angular-focus-trap">View on <strong>GitHub</strong></a></li>
+                <li><a href="https://github.com/myplanetdigital/angular-tab-trap">View on <strong>GitHub</strong></a></li>
             </ul>
         </div>
     </nav>
@@ -64,7 +64,7 @@
         <section class="showcase">
             <div class="content-wrap">
                 <div class="showcase-example">
-                    <focus-trap>
+                    <tab-trap>
                         <label>
                             Username
                             <input type="text" autofocus>
@@ -74,7 +74,7 @@
                             <input type="password">
                         </label>
                         <button>Sign in</button>
-                    </focus-trap>
+                    </tab-trap>
                 </div>
                 <div class="showcase-content">
                     <h3>Live Demo</h3>
@@ -84,7 +84,7 @@
                     <h4>Demo Source</h4>
 
                     <pre><code class="lang-html"><!--
--->&lt;focus-trap&gt;
+-->&lt;tab-trap&gt;
     &lt;label&gt;
         Username
         &lt;input type=&quot;text&quot; autofocus&gt;
@@ -94,7 +94,7 @@
         &lt;input type=&quot;password&quot;&gt;
     &lt;/label&gt;
     &lt;button&gt;Sign in&lt;/button&gt;
-&lt;/focus-trap&gt;<!--
+&lt;/tab-trap&gt;<!--
                     --></code></pre>
                 </div>
             </div>
@@ -103,46 +103,46 @@
             <div class="content-wrap">
                 <h3 id="overview">Overview</h3>
 
-                <p><strong>angular-focus-trap</strong>...</p>
+                <p><strong>angular-tab-trap</strong>...</p>
             </div>
         </section>
         <section>
             <div class="content-wrap">
                 <h3 id="download">Download</h3>
 
-                <p>Grab the latest from <a href="https://github.com/myplanetdigital/angular-focus-trap/releases">GitHub</a> or use your favorite package manager:</p>
+                <p>Grab the latest from <a href="https://github.com/myplanetdigital/angular-tab-trap/releases">GitHub</a> or use your favorite package manager:</p>
 
                 <h4>Via Bower</h4>
 
-                <pre><code class="lang-sh">bower install angular-focus-trap</code></pre>
+                <pre><code class="lang-sh">bower install angular-tab-trap</code></pre>
 
                 <h4>Via NPM</h4>
 
-                <pre><code class="lang-sh">npm install angular-focus-trap</code></pre>
+                <pre><code class="lang-sh">npm install angular-tab-trap</code></pre>
 
                 <h3 id="usage">Usage</h3>
 
-                <p>Include <strong>angular-focus-trap.js</strong> in your application,
+                <p>Include <strong>angular-tab-trap.js</strong> in your application,
                     after Angular is included.</p>
 
                 <pre><code class="lang-html"><!--
 -->&lt;script src=&quot;path/to/angular.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;path/to/angular-focus-trap.js&quot;&gt;&lt;/script&gt;<!--
+&lt;script src=&quot;path/to/angular-tab-trap.js&quot;&gt;&lt;/script&gt;<!--
                 --></code></pre>
 
                 <p>You may use an AMD or CommonJS loader as well.</p>
 
-                <p>Initialize your Angular application with the <strong>mp.focusTrap</strong> module as a dependency:</p>
+                <p>Initialize your Angular application with the <strong>mp.tabTrap</strong> module as a dependency:</p>
 
                 <pre><code class="lang-js"><!--
--->angular.module('app', [ 'mp.focusTrap' ]);<!--
+-->angular.module('app', [ 'mp.tabTrap' ]);<!--
                 --></code></pre>
 
-                <p>Then use the <code>&lt;focus-trap&gt;</code> element:</p>
+                <p>Then use the <code>&lt;tab-trap&gt;</code> element:</p>
 
                 <pre><code class="lang-html"><!--
--->&lt;focus-trap&gt;
-&lt;/focus-trap&gt;<!--
+-->&lt;tab-trap&gt;
+&lt;/tab-trap&gt;<!--
                 --></code></pre>
              </div>
         </section>
