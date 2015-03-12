@@ -1,0 +1,23 @@
+{
+  "name": "angular-tab-trap",
+  "main": "angular-tab-trap.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/myplanetdigital/angular-tab-trap",
+  "authors": [
+    "Ates Goral <ates.g@myplanet.com>",
+    "Nick Matantsev <nick.m@myplanet.com>"
+  ],
+  "description": "Tab trap for Angular",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "tab",
+    "focus",
+    "modal"
+  ],
+  "license": "MIT"
+}

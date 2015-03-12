@@ -1,0 +1,28 @@
+{
+  "name": "angular-tab-trap",
+  "version": "0.0.1",
+  "description": "Tab trap for Angular",
+  "main": "angular-tab-trap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/myplanetdigital/angular-tab-trap.git"
+  },
+  "keywords": [
+    "angular",
+    "tab",
+    "focus",
+    "modal"
+  ],
+  "author": "Ates Goral <ates.g@myplanet.com>",
+  "contributors": [{
+    "name": "Nick Matantsev",
+    "email": "nick.m@myplanet.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myplanetdigital/angular-tab-trap/issues"
+  }
+}
