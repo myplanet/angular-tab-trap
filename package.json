@@ -1,6 +1,6 @@
 {
   "name": "angular-tab-trap",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Tab trap for Angular",
   "main": "angular-tab-trap.js",
   "scripts": {
