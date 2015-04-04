@@ -3,12 +3,9 @@
   "version": "1.0.2",
   "description": "Tab trap for Angular",
   "main": "angular-tab-trap.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/myplanetdigital/angular-tab-trap.git"
+    "url": "git://github.com/myplanet/angular-tab-trap.git"
   },
   "keywords": [
     "angular",
@@ -25,6 +22,6 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/myplanetdigital/angular-tab-trap/issues"
+    "url": "https://github.com/myplanet/angular-tab-trap/issues"
   }
 }
