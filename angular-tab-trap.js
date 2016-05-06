@@ -50,10 +50,14 @@
                     focusTrailer.css(buttonStyle);
 
                     children.on('focus', function () {
-                        var focusables = $(transclusionPoint[0]).find(':tabbable');
+                        var potentiallyTabbableChilds = transclusionPoint[0].querySelectorAll('input, button, select, textarea, a[href], *[tabindex]');
 
-                        if (focusables.length) {
-                            focusables[0].focus();
+                        var tababbles = Array.prototype.filter.call(potentiallyTabbableChilds, function(item) {
+                            return item.tabIndex >= 0;
+                        });
+
+                        if (tababbles[0]) {
+                            tababbles[0].focus();
                         }
                     });
                 }
