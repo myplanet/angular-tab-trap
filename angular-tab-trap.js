@@ -50,7 +50,7 @@
                     focusTrailer.css(buttonStyle);
 
                     children.on('focus', function () {
-                        var focusables = transclusionPoint.find('input');
+                        var focusables = $(transclusionPoint[0]).find(':tabbable');
 
                         if (focusables.length) {
                             focusables[0].focus();
