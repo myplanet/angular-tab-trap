@@ -50,14 +50,14 @@
                     focusTrailer.css(buttonStyle);
 
                     children.on('focus', function () {
-                        var potentiallyTabbableChilds = transclusionPoint[0].querySelectorAll('input, button, select, textarea, a[href], *[tabindex]');
+                        var potentiallyTabbableChildren = transclusionPoint[0].querySelectorAll('input, button, select, textarea, a[href], *[tabindex]');
 
-                        var tababbles = Array.prototype.filter.call(potentiallyTabbableChilds, function(item) {
+                        var tabbables = Array.prototype.filter.call(potentiallyTabbableChildren, function (item) {
                             return item.tabIndex >= 0;
                         });
 
-                        if (tababbles[0]) {
-                            tababbles[0].focus();
+                        if (tabbables[0]) {
+                            tabbables[0].focus();
                         }
                     });
                 }
